@@ -4,7 +4,7 @@ on:
   # watch:
   #   types: started
   schedule:
-    - cron: "30 1 * * 0"
+    - cron: "30 22 * * 6"
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
@@ -16,7 +16,7 @@ env:
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   TZ: Asia/Shanghai
-  KERNEL_VERSION: 5.18.8
+  KERNEL_VERSION: 5.18.8_5.15.51
 
 jobs:
   build_openwrt:

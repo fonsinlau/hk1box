@@ -4,7 +4,7 @@ on:
   # watch:
   #   types: started
   schedule:
-    - cron: '0 1 * * 1'
+    - cron: "30 1 * * 0"
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt

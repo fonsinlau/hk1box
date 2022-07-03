@@ -16,7 +16,7 @@ env:
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   TZ: Asia/Shanghai
-  KERNEL_VERSION: 5.18.8_5.15.51
+  KERNEL_VERSION: 5.18.9_5.15.52
 
 jobs:
   build_openwrt:
